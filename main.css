@@ -1,0 +1,45 @@
+body {
+    background-color: #454545;
+}
+
+/*Circles Section*/
+.circle {
+    border-radius: 100%;
+    background: salmon;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.element {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*Button Section*/
+
+#colors {
+    height: 50px;
+    width: 250px;
+    color: white;
+    font-size: 20px;
+    background: #555555;
+    border: none;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#colors:hover {
+    color: white;
+    background: gray;
+}
+
+#btn {
+    margin: 0;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
